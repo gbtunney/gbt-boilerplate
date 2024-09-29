@@ -1,7 +1,7 @@
-# @snailicide/build-config 🐌
+# gbt-boilerplate 🐌
 
-[![NPM](https://img.shields.io/npm/v/@snailicide/build-config)](http://www.npmjs.com/package/@snailicide/build-config)
-![License: MIT](https://img.shields.io/npm/l/@snailicide/build-config)
+[![NPM](https://img.shields.io/npm/v/gbt-boilerplate)](http://www.npmjs.com/package/gbt-boilerplate)
+![License: MIT](https://img.shields.io/npm/l/gbt-boilerplate)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 _Provides repository with base configurations that can be extended in new packages._
@@ -18,10 +18,9 @@ _Provides repository with base configurations that can be extended in new packag
 
 ### Repository
 
--   **Github:**
-    [`@snailicide/build-config`](https://github.com/gbtunney/snailicide-monorepo/tree/main/packages/build-config) •
+-   **Github:** [`gbt-boilerplate`](https://github.com/gbtunney/gbt-boilerplate) •
     [`snailicide-monorepo`](https://github.com/gbtunney/snailicide-monorepo.git)
--   **CDN**: [jsdeliver](https://cdn.jsdelivr.net/npm/@snailicide/build-config/dist/index.min.js)
+-   **CDN**: [jsdeliver](https://cdn.jsdelivr.net/npm/gbt-boilerplate/dist/index.min.js)
 
 ### Author
 
@@ -34,7 +33,7 @@ _Provides repository with base configurations that can be extended in new packag
 >
 > [![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)](http://pnpm.io)
 
-## @snailicide/build-config 🐌
+## gbt-boilerplate 🐌
 
 ---
 
@@ -46,14 +45,14 @@ mollit anim id est laborum.
 
 ## Installation
 
-```sh
-#pnpm
+```shell
+# pnpm
 $ pnpm add @snailicide/build-config -D
 
-#yarn
+# yarn
 $ yarn add @snailicide/build-config -D
 
-#npm
+# npm
 $ npm install @snailicide/build-config --development
 ```
 
@@ -61,7 +60,7 @@ _**OR:**_
 
 ```shell
 # install in workspace
-git clone git@github.com:gbtunney/gbt-boilerplate.git ./packages/gbt-boilerplate
+git clone https://github.com/gbtunney/gbt-boilerplate.git ./packages/gbt-boilerplate
 rm -rf ./packages/gbt-boilerplate/.git
 pnpm install
 
