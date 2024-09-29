@@ -60,13 +60,14 @@ $ npm install @snailicide/build-config --development
 _**OR:**_
 
 ```shell
-# install as sub-package
+# install in workspace
 git clone git@github.com:gbtunney/gbt-boilerplate.git ./packages/gbt-boilerplate
 rm -rf ./packages/gbt-boilerplate/.git
 pnpm install
 
 # run delete files script
-pnpm exec --filter node ./workspace.mts < name > exec
+pnpm --filter=gbt-boilerplate build:ts
+pnpm --filter=gbt-boilerplate exec node ./workspace.mjs
 ```
 
 ## Examples
