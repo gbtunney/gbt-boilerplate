@@ -133,6 +133,9 @@ pnpm-lock.yaml
 .ssh
 .env
 
+# Build files
+dist
+
 # JSLike Files
 *.js
 *.d.ts
