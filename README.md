@@ -57,6 +57,19 @@ $ yarn add @snailicide/build-config -D
 $ npm install @snailicide/build-config --development
 ```
 
+_**OR:**_
+
+```shell
+# install in workspace
+git clone git@github.com:gbtunney/gbt-boilerplate.git ./packages/gbt-boilerplate
+rm -rf ./packages/gbt-boilerplate/.git
+pnpm install
+
+# run delete files script
+pnpm --filter=gbt-boilerplate build:ts
+pnpm --filter=gbt-boilerplate exec node ./workspace.mjs
+```
+
 ## Examples
 
 ```ts
